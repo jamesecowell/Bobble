@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6471FFB1247D9BA1008966BB /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471FFB0247D9BA1008966BB /* EventsViewController.swift */; };
+		64958F84247B29F600C8DB38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64958F83247B29F500C8DB38 /* Constants.swift */; };
+		649CEECE247BFCB200E0B174 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CEECD247BFCB200E0B174 /* Utilities.swift */; };
+		64BFD346247AB4790075BF82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BFD345247AB4790075BF82 /* AppDelegate.swift */; };
+		64BFD348247AB4790075BF82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BFD347247AB4790075BF82 /* SceneDelegate.swift */; };
+		64BFD34A247AB4790075BF82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BFD349247AB4790075BF82 /* ViewController.swift */; };
+		64BFD34D247AB4790075BF82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BFD34B247AB4790075BF82 /* Main.storyboard */; };
+		64BFD34F247AB47E0075BF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BFD34E247AB47E0075BF82 /* Assets.xcassets */; };
+		64BFD352247AB47E0075BF82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BFD350247AB47E0075BF82 /* LaunchScreen.storyboard */; };
+		64BFD35B247AB4D90075BF82 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BFD35A247AB4D90075BF82 /* LoginViewController.swift */; };
+		64BFD35D247AB4F60075BF82 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BFD35C247AB4F60075BF82 /* SignUpViewController.swift */; };
+		64BFD35F247AB5010075BF82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BFD35E247AB5010075BF82 /* HomeViewController.swift */; };
+		64BFD362247ABB290075BF82 /* bgvid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 64BFD361247ABB290075BF82 /* bgvid.mp4 */; };
+		64C60F0B247ACBE400D4B464 /* KontrapunktMiki-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64C60F08247ACBE400D4B464 /* KontrapunktMiki-Regular.otf */; };
+		64C60F0C247ACBE400D4B464 /* KontrapunktMiki-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64C60F09247ACBE400D4B464 /* KontrapunktMiki-Bold.otf */; };
+		64C60F0D247ACBE400D4B464 /* KontrapunktMiki-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64C60F0A247ACBE400D4B464 /* KontrapunktMiki-ExtraBold.otf */; };
+		64C60F0F247B10AC00D4B464 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64C60F0E247B10AB00D4B464 /* GoogleService-Info.plist */; };
+		966BC359BBBA5F67D6B5E285 /* Pods_bobble_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A39696E9A2209F806B9995 /* Pods_bobble_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6471FFB0247D9BA1008966BB /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		64958F83247B29F500C8DB38 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		649CEECD247BFCB200E0B174 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		64BFD342247AB4790075BF82 /* Bobble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bobble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BFD345247AB4790075BF82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64BFD347247AB4790075BF82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64BFD349247AB4790075BF82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		64BFD34C247AB4790075BF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64BFD34E247AB47E0075BF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64BFD351247AB47E0075BF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64BFD353247AB47E0075BF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BFD35A247AB4D90075BF82 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		64BFD35C247AB4F60075BF82 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		64BFD35E247AB5010075BF82 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		64BFD361247ABB290075BF82 /* bgvid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgvid.mp4; sourceTree = "<group>"; };
+		64C60F08247ACBE400D4B464 /* KontrapunktMiki-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KontrapunktMiki-Regular.otf"; sourceTree = "<group>"; };
+		64C60F09247ACBE400D4B464 /* KontrapunktMiki-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KontrapunktMiki-Bold.otf"; sourceTree = "<group>"; };
+		64C60F0A247ACBE400D4B464 /* KontrapunktMiki-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KontrapunktMiki-ExtraBold.otf"; sourceTree = "<group>"; };
+		64C60F0E247B10AB00D4B464 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B23613EF5F37768915978732 /* Pods-bobble-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bobble-ios.release.xcconfig"; path = "Target Support Files/Pods-bobble-ios/Pods-bobble-ios.release.xcconfig"; sourceTree = "<group>"; };
+		B8A39696E9A2209F806B9995 /* Pods_bobble_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bobble_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6606C1BBBF4B9411182A54 /* Pods-bobble-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bobble-ios.debug.xcconfig"; path = "Target Support Files/Pods-bobble-ios/Pods-bobble-ios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64BFD33F247AB4790075BF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966BC359BBBA5F67D6B5E285 /* Pods_bobble_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		448AB58485C11359F8A3BC19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A39696E9A2209F806B9995 /* Pods_bobble_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64958F80247B237E00C8DB38 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				64958F83247B29F500C8DB38 /* Constants.swift */,
+				649CEECD247BFCB200E0B174 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		649CEECC247BFC1300E0B174 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64BFD339247AB4790075BF82 = {
+			isa = PBXGroup;
+			children = (
+				64BFD344247AB4790075BF82 /* bobble-ios */,
+				64BFD343247AB4790075BF82 /* Products */,
+				FD72B44620A2EFF07AD4E27C /* Pods */,
+				448AB58485C11359F8A3BC19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64BFD343247AB4790075BF82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64BFD342247AB4790075BF82 /* Bobble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64BFD344247AB4790075BF82 /* bobble-ios */ = {
+			isa = PBXGroup;
+			children = (
+				64BFD345247AB4790075BF82 /* AppDelegate.swift */,
+				64BFD347247AB4790075BF82 /* SceneDelegate.swift */,
+				649CEECC247BFC1300E0B174 /* Model */,
+				64BFD359247AB4CB0075BF82 /* Controller */,
+				64BFD360247ABB030075BF82 /* Media */,
+				64C60F01247ACBB200D4B464 /* Fonts */,
+				64958F80247B237E00C8DB38 /* Helpers */,
+				64BFD34B247AB4790075BF82 /* Main.storyboard */,
+				64BFD34E247AB47E0075BF82 /* Assets.xcassets */,
+				64BFD350247AB47E0075BF82 /* LaunchScreen.storyboard */,
+				64BFD353247AB47E0075BF82 /* Info.plist */,
+				64C60F0E247B10AB00D4B464 /* GoogleService-Info.plist */,
+			);
+			path = "bobble-ios";
+			sourceTree = "<group>";
+		};
+		64BFD359247AB4CB0075BF82 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64BFD349247AB4790075BF82 /* ViewController.swift */,
+				64BFD35A247AB4D90075BF82 /* LoginViewController.swift */,
+				64BFD35C247AB4F60075BF82 /* SignUpViewController.swift */,
+				64BFD35E247AB5010075BF82 /* HomeViewController.swift */,
+				6471FFB0247D9BA1008966BB /* EventsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64BFD360247ABB030075BF82 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				64BFD361247ABB290075BF82 /* bgvid.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		64C60F01247ACBB200D4B464 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				64C60F09247ACBE400D4B464 /* KontrapunktMiki-Bold.otf */,
+				64C60F0A247ACBE400D4B464 /* KontrapunktMiki-ExtraBold.otf */,
+				64C60F08247ACBE400D4B464 /* KontrapunktMiki-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FD72B44620A2EFF07AD4E27C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF6606C1BBBF4B9411182A54 /* Pods-bobble-ios.debug.xcconfig */,
+				B23613EF5F37768915978732 /* Pods-bobble-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64BFD341247AB4790075BF82 /* bobble-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BFD356247AB47E0075BF82 /* Build configuration list for PBXNativeTarget "bobble-ios" */;
+			buildPhases = (
+				127E35459F0DF8805B141E0B /* [CP] Check Pods Manifest.lock */,
+				64BFD33E247AB4790075BF82 /* Sources */,
+				64BFD33F247AB4790075BF82 /* Frameworks */,
+				64BFD340247AB4790075BF82 /* Resources */,
+				2D0208202FF84B92746321E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bobble-ios";
+			productName = "bobble-ios";
+			productReference = 64BFD342247AB4790075BF82 /* Bobble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64BFD33A247AB4790075BF82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "James Cowell";
+				TargetAttributes = {
+					64BFD341247AB4790075BF82 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 64BFD33D247AB4790075BF82 /* Build configuration list for PBXProject "bobble-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64BFD339247AB4790075BF82;
+			productRefGroup = 64BFD343247AB4790075BF82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64BFD341247AB4790075BF82 /* bobble-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64BFD340247AB4790075BF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BFD362247ABB290075BF82 /* bgvid.mp4 in Resources */,
+				64C60F0F247B10AC00D4B464 /* GoogleService-Info.plist in Resources */,
+				64BFD352247AB47E0075BF82 /* LaunchScreen.storyboard in Resources */,
+				64C60F0C247ACBE400D4B464 /* KontrapunktMiki-Bold.otf in Resources */,
+				64C60F0B247ACBE400D4B464 /* KontrapunktMiki-Regular.otf in Resources */,
+				64BFD34F247AB47E0075BF82 /* Assets.xcassets in Resources */,
+				64C60F0D247ACBE400D4B464 /* KontrapunktMiki-ExtraBold.otf in Resources */,
+				64BFD34D247AB4790075BF82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		127E35459F0DF8805B141E0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bobble-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D0208202FF84B92746321E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bobble-ios/Pods-bobble-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bobble-ios/Pods-bobble-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bobble-ios/Pods-bobble-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64BFD33E247AB4790075BF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BFD35B247AB4D90075BF82 /* LoginViewController.swift in Sources */,
+				64BFD34A247AB4790075BF82 /* ViewController.swift in Sources */,
+				64BFD346247AB4790075BF82 /* AppDelegate.swift in Sources */,
+				64BFD348247AB4790075BF82 /* SceneDelegate.swift in Sources */,
+				64BFD35D247AB4F60075BF82 /* SignUpViewController.swift in Sources */,
+				64BFD35F247AB5010075BF82 /* HomeViewController.swift in Sources */,
+				649CEECE247BFCB200E0B174 /* Utilities.swift in Sources */,
+				64958F84247B29F600C8DB38 /* Constants.swift in Sources */,
+				6471FFB1247D9BA1008966BB /* EventsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64BFD34B247AB4790075BF82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BFD34C247AB4790075BF82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64BFD350247AB47E0075BF82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BFD351247AB47E0075BF82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64BFD354247AB47E0075BF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64BFD355247AB47E0075BF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64BFD357247AB47E0075BF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6606C1BBBF4B9411182A54 /* Pods-bobble-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F62WC3Q83W;
+				INFOPLIST_FILE = "bobble-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesecowell.bobble-ios";
+				PRODUCT_NAME = Bobble;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64BFD358247AB47E0075BF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23613EF5F37768915978732 /* Pods-bobble-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F62WC3Q83W;
+				INFOPLIST_FILE = "bobble-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesecowell.bobble-ios";
+				PRODUCT_NAME = Bobble;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64BFD33D247AB4790075BF82 /* Build configuration list for PBXProject "bobble-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BFD354247AB47E0075BF82 /* Debug */,
+				64BFD355247AB47E0075BF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BFD356247AB47E0075BF82 /* Build configuration list for PBXNativeTarget "bobble-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BFD357247AB47E0075BF82 /* Debug */,
+				64BFD358247AB47E0075BF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64BFD33A247AB4790075BF82 /* Project object */;
+}
